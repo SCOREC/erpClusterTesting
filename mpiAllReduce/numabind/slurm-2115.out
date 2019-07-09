@@ -1,0 +1,51 @@
+processes 24
+nodes 2
+ppn 12
++ srun --mpi=pmi2 -n 24 --cpu_bind=verbose,map_ldom=4,4,4,4,4,4,5,5,5,5,5,5,6,6,6,6,6,6,7,7,7,7,7,7,0,0,0,0,0,0,1,1,1,1,1,1,2,2,2,2,2,2,3,3,3,3,3,3 /gpfs/u/home/CCNI/CCNIsmth/barn-shared/CWS/osu-micro-benchmarks-5.6.1-erp-openmpi.4.0.1-install/libexec/osu-micro-benchmarks/mpi//collective/osu_allreduce
+cpu_bind=LDMAP  - erp01, task  0  0 [10422]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp01, task  1  1 [10423]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp01, task  2  2 [10424]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp01, task  3  3 [10425]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp01, task  4  4 [10426]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp01, task  5  5 [10427]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp01, task  6  6 [10428]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp01, task  7  7 [10429]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp01, task  8  8 [10430]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp01, task  9  9 [10431]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp01, task 11 11 [10433]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp01, task 10 10 [10432]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp02, task 14  2 [106838]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp02, task 13  1 [106837]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp02, task 12  0 [106836]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp02, task 15  3 [106839]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp02, task 18  6 [106842]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp02, task 17  5 [106841]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp02, task 16  4 [106840]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp02, task 20  8 [106844]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp02, task 21  9 [106845]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp02, task 19  7 [106843]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp02, task 23 11 [106847]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp02, task 22 10 [106846]: mask 0x80808080808 set
+
+# OSU MPI Allreduce Latency Test v5.6.1
+# Size       Avg Latency(us)
+4                       5.68
+8                       5.62
+16                      5.60
+32                      5.96
+64                      6.08
+128                     7.54
+256                     8.46
+512                     9.15
+1024                   10.86
+2048                   14.34
+4096                   20.72
+8192                   36.77
+16384                  58.31
+32768                  79.19
+65536                 113.35
+131072                183.08
+262144                348.11
+524288                660.49
+1048576              1366.36
++ set +x
