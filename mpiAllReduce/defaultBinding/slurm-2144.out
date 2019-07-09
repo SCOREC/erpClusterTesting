@@ -1,0 +1,124 @@
+processes 96
+nodes 8
+ppn 12
+binding default
++ srun --mpi=pmi2 -n 96 --cpu_bind=verbose /gpfs/u/home/CCNI/CCNIsmth/barn-shared/CWS/osu-micro-benchmarks-5.6.1-erp-openmpi.4.0.1-install/libexec/osu-micro-benchmarks/mpi//collective/osu_allreduce
+cpu_bind=MASK - erp04, task  0  0 [126604]: mask 0xffffffffffff set
+cpu_bind=MASK - erp04, task  2  2 [126606]: mask 0xffffffffffff set
+cpu_bind=MASK - erp04, task  1  1 [126605]: mask 0xffffffffffff set
+cpu_bind=MASK - erp04, task  3  3 [126607]: mask 0xffffffffffff set
+cpu_bind=MASK - erp04, task  5  5 [126609]: mask 0xffffffffffff set
+cpu_bind=MASK - erp04, task  4  4 [126608]: mask 0xffffffffffff set
+cpu_bind=MASK - erp04, task  6  6 [126610]: mask 0xffffffffffff set
+cpu_bind=MASK - erp04, task  7  7 [126611]: mask 0xffffffffffff set
+cpu_bind=MASK - erp04, task  8  8 [126612]: mask 0xffffffffffff set
+cpu_bind=MASK - erp04, task 10 10 [126614]: mask 0xffffffffffff set
+cpu_bind=MASK - erp04, task  9  9 [126613]: mask 0xffffffffffff set
+cpu_bind=MASK - erp04, task 11 11 [126615]: mask 0xffffffffffff set
+cpu_bind=MASK - erp05, task 12  0 [104542]: mask 0xffffffffffff set
+cpu_bind=MASK - erp07, task 36  0 [99664]: mask 0xffffffffffff set
+cpu_bind=MASK - erp06, task 25  1 [100893]: mask 0xffffffffffff set
+cpu_bind=MASK - erp05, task 13  1 [104543]: mask 0xffffffffffff set
+cpu_bind=MASK - erp07, task 38  2 [99666]: mask 0xffffffffffff set
+cpu_bind=MASK - erp06, task 26  2 [100894]: mask 0xffffffffffff set
+cpu_bind=MASK - erp05, task 14  2 [104544]: mask 0xffffffffffff set
+cpu_bind=MASK - erp07, task 37  1 [99665]: mask 0xffffffffffff set
+cpu_bind=MASK - erp06, task 24  0 [100892]: mask 0xffffffffffff set
+cpu_bind=MASK - erp05, task 16  4 [104546]: mask 0xffffffffffff set
+cpu_bind=MASK - erp07, task 39  3 [99667]: mask 0xffffffffffff set
+cpu_bind=MASK - erp06, task 29  5 [100897]: mask 0xffffffffffff set
+cpu_bind=MASK - erp05, task 15  3 [104545]: mask 0xffffffffffff set
+cpu_bind=MASK - erp07, task 41  5 [99669]: mask 0xffffffffffff set
+cpu_bind=MASK - erp06, task 27  3 [100895]: mask 0xffffffffffff set
+cpu_bind=MASK - erp05, task 18  6 [104548]: mask 0xffffffffffff set
+cpu_bind=MASK - erp07, task 42  6 [99670]: mask 0xffffffffffff set
+cpu_bind=MASK - erp06, task 28  4 [100896]: mask 0xffffffffffff set
+cpu_bind=MASK - erp05, task 19  7 [104549]: mask 0xffffffffffff set
+cpu_bind=MASK - erp07, task 40  4 [99668]: mask 0xffffffffffff set
+cpu_bind=MASK - erp06, task 30  6 [100898]: mask 0xffffffffffff set
+cpu_bind=MASK - erp05, task 17  5 [104547]: mask 0xffffffffffff set
+cpu_bind=MASK - erp07, task 43  7 [99671]: mask 0xffffffffffff set
+cpu_bind=MASK - erp05, task 20  8 [104550]: mask 0xffffffffffff set
+cpu_bind=MASK - erp07, task 44  8 [99672]: mask 0xffffffffffff set
+cpu_bind=MASK - erp05, task 21  9 [104551]: mask 0xffffffffffff set
+cpu_bind=MASK - erp07, task 45  9 [99673]: mask 0xffffffffffff set
+cpu_bind=MASK - erp05, task 22 10 [104552]: mask 0xffffffffffff set
+cpu_bind=MASK - erp07, task 46 10 [99674]: mask 0xffffffffffff set
+cpu_bind=MASK - erp05, task 23 11 [104553]: mask 0xffffffffffff set
+cpu_bind=MASK - erp07, task 47 11 [99675]: mask 0xffffffffffff set
+cpu_bind=MASK - erp06, task 31  7 [100899]: mask 0xffffffffffff set
+cpu_bind=MASK - erp06, task 32  8 [100900]: mask 0xffffffffffff set
+cpu_bind=MASK - erp06, task 34 10 [100902]: mask 0xffffffffffff set
+cpu_bind=MASK - erp06, task 33  9 [100901]: mask 0xffffffffffff set
+cpu_bind=MASK - erp06, task 35 11 [100903]: mask 0xffffffffffff set
+cpu_bind=MASK - erp10, task 72  0 [98934]: mask 0xffffffffffff set
+cpu_bind=MASK - erp10, task 73  1 [98935]: mask 0xffffffffffff set
+cpu_bind=MASK - erp10, task 74  2 [98936]: mask 0xffffffffffff set
+cpu_bind=MASK - erp10, task 75  3 [98937]: mask 0xffffffffffff set
+cpu_bind=MASK - erp10, task 76  4 [98938]: mask 0xffffffffffff set
+cpu_bind=MASK - erp10, task 77  5 [98939]: mask 0xffffffffffff set
+cpu_bind=MASK - erp10, task 78  6 [98940]: mask 0xffffffffffff set
+cpu_bind=MASK - erp10, task 79  7 [98941]: mask 0xffffffffffff set
+cpu_bind=MASK - erp10, task 80  8 [98942]: mask 0xffffffffffff set
+cpu_bind=MASK - erp10, task 81  9 [98943]: mask 0xffffffffffff set
+cpu_bind=MASK - erp10, task 82 10 [98944]: mask 0xffffffffffff set
+cpu_bind=MASK - erp10, task 83 11 [98945]: mask 0xffffffffffff set
+cpu_bind=MASK - erp08, task 49  1 [98955]: mask 0xffffffffffff set
+cpu_bind=MASK - erp11, task 84  0 [106232]: mask 0xffffffffffff set
+cpu_bind=MASK - erp08, task 50  2 [98956]: mask 0xffffffffffff set
+cpu_bind=MASK - erp08, task 48  0 [98954]: mask 0xffffffffffff set
+cpu_bind=MASK - erp08, task 52  4 [98958]: mask 0xffffffffffff set
+cpu_bind=MASK - erp08, task 53  5 [98959]: mask 0xffffffffffff set
+cpu_bind=MASK - erp08, task 51  3 [98957]: mask 0xffffffffffff set
+cpu_bind=MASK - erp08, task 54  6 [98960]: mask 0xffffffffffff set
+cpu_bind=MASK - erp08, task 55  7 [98961]: mask 0xffffffffffff set
+cpu_bind=MASK - erp08, task 56  8 [98962]: mask 0xffffffffffff set
+cpu_bind=MASK - erp08, task 57  9 [98963]: mask 0xffffffffffff set
+cpu_bind=MASK - erp08, task 58 10 [98964]: mask 0xffffffffffff set
+cpu_bind=MASK - erp08, task 59 11 [98965]: mask 0xffffffffffff set
+cpu_bind=MASK - erp11, task 85  1 [106233]: mask 0xffffffffffff set
+cpu_bind=MASK - erp11, task 86  2 [106234]: mask 0xffffffffffff set
+cpu_bind=MASK - erp11, task 87  3 [106235]: mask 0xffffffffffff set
+cpu_bind=MASK - erp11, task 88  4 [106236]: mask 0xffffffffffff set
+cpu_bind=MASK - erp11, task 89  5 [106237]: mask 0xffffffffffff set
+cpu_bind=MASK - erp11, task 90  6 [106238]: mask 0xffffffffffff set
+cpu_bind=MASK - erp11, task 91  7 [106239]: mask 0xffffffffffff set
+cpu_bind=MASK - erp11, task 92  8 [106240]: mask 0xffffffffffff set
+cpu_bind=MASK - erp11, task 93  9 [106241]: mask 0xffffffffffff set
+cpu_bind=MASK - erp11, task 94 10 [106242]: mask 0xffffffffffff set
+cpu_bind=MASK - erp11, task 95 11 [106243]: mask 0xffffffffffff set
+cpu_bind=MASK - erp09, task 60  0 [99388]: mask 0xffffffffffff set
+cpu_bind=MASK - erp09, task 62  2 [99390]: mask 0xffffffffffff set
+cpu_bind=MASK - erp09, task 61  1 [99389]: mask 0xffffffffffff set
+cpu_bind=MASK - erp09, task 63  3 [99391]: mask 0xffffffffffff set
+cpu_bind=MASK - erp09, task 65  5 [99393]: mask 0xffffffffffff set
+cpu_bind=MASK - erp09, task 64  4 [99392]: mask 0xffffffffffff set
+cpu_bind=MASK - erp09, task 66  6 [99394]: mask 0xffffffffffff set
+cpu_bind=MASK - erp09, task 67  7 [99395]: mask 0xffffffffffff set
+cpu_bind=MASK - erp09, task 68  8 [99396]: mask 0xffffffffffff set
+cpu_bind=MASK - erp09, task 69  9 [99397]: mask 0xffffffffffff set
+cpu_bind=MASK - erp09, task 70 10 [99398]: mask 0xffffffffffff set
+cpu_bind=MASK - erp09, task 71 11 [99399]: mask 0xffffffffffff set
+
+# OSU MPI Allreduce Latency Test v5.6.1
+# Size       Avg Latency(us)
+4                      29.07
+8                      15.37
+16                     16.00
+32                     14.72
+64                     17.20
+128                    25.54
+256                    22.40
+512                    22.17
+1024                   25.53
+2048                   33.37
+4096                   52.34
+8192                  101.93
+16384                 348.02
+32768                 379.04
+65536                 468.16
+131072                637.47
+262144                962.81
+524288               1508.56
+1048576              3201.80
++ set +x

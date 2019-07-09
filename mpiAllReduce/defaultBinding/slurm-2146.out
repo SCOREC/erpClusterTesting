@@ -1,0 +1,76 @@
+processes 48
+nodes 2
+ppn 24
+binding default
++ srun --mpi=pmi2 -n 48 --cpu_bind=verbose /gpfs/u/home/CCNI/CCNIsmth/barn-shared/CWS/osu-micro-benchmarks-5.6.1-erp-openmpi.4.0.1-install/libexec/osu-micro-benchmarks/mpi//collective/osu_allreduce
+cpu_bind=MASK - erp01, task  0  0 [49553]: mask 0xffffffffffff set
+cpu_bind=MASK - erp01, task  2  2 [49555]: mask 0xffffffffffff set
+cpu_bind=MASK - erp01, task  1  1 [49554]: mask 0xffffffffffff set
+cpu_bind=MASK - erp01, task  4  4 [49557]: mask 0xffffffffffff set
+cpu_bind=MASK - erp01, task  5  5 [49558]: mask 0xffffffffffff set
+cpu_bind=MASK - erp01, task  6  6 [49559]: mask 0xffffffffffff set
+cpu_bind=MASK - erp01, task  3  3 [49556]: mask 0xffffffffffff set
+cpu_bind=MASK - erp01, task  7  7 [49560]: mask 0xffffffffffff set
+cpu_bind=MASK - erp01, task  8  8 [49561]: mask 0xffffffffffff set
+cpu_bind=MASK - erp01, task  9  9 [49562]: mask 0xffffffffffff set
+cpu_bind=MASK - erp01, task 10 10 [49563]: mask 0xffffffffffff set
+cpu_bind=MASK - erp01, task 11 11 [49564]: mask 0xffffffffffff set
+cpu_bind=MASK - erp01, task 12 12 [49565]: mask 0xffffffffffff set
+cpu_bind=MASK - erp01, task 13 13 [49566]: mask 0xffffffffffff set
+cpu_bind=MASK - erp01, task 14 14 [49567]: mask 0xffffffffffff set
+cpu_bind=MASK - erp01, task 15 15 [49568]: mask 0xffffffffffff set
+cpu_bind=MASK - erp01, task 16 16 [49569]: mask 0xffffffffffff set
+cpu_bind=MASK - erp01, task 17 17 [49570]: mask 0xffffffffffff set
+cpu_bind=MASK - erp01, task 18 18 [49571]: mask 0xffffffffffff set
+cpu_bind=MASK - erp01, task 19 19 [49572]: mask 0xffffffffffff set
+cpu_bind=MASK - erp01, task 20 20 [49573]: mask 0xffffffffffff set
+cpu_bind=MASK - erp01, task 21 21 [49574]: mask 0xffffffffffff set
+cpu_bind=MASK - erp01, task 22 22 [49575]: mask 0xffffffffffff set
+cpu_bind=MASK - erp01, task 23 23 [49577]: mask 0xffffffffffff set
+cpu_bind=MASK - erp02, task 24  0 [125779]: mask 0xffffffffffff set
+cpu_bind=MASK - erp02, task 26  2 [125781]: mask 0xffffffffffff set
+cpu_bind=MASK - erp02, task 25  1 [125780]: mask 0xffffffffffff set
+cpu_bind=MASK - erp02, task 28  4 [125783]: mask 0xffffffffffff set
+cpu_bind=MASK - erp02, task 29  5 [125784]: mask 0xffffffffffff set
+cpu_bind=MASK - erp02, task 30  6 [125785]: mask 0xffffffffffff set
+cpu_bind=MASK - erp02, task 27  3 [125782]: mask 0xffffffffffff set
+cpu_bind=MASK - erp02, task 31  7 [125786]: mask 0xffffffffffff set
+cpu_bind=MASK - erp02, task 32  8 [125787]: mask 0xffffffffffff set
+cpu_bind=MASK - erp02, task 34 10 [125789]: mask 0xffffffffffff set
+cpu_bind=MASK - erp02, task 33  9 [125788]: mask 0xffffffffffff set
+cpu_bind=MASK - erp02, task 35 11 [125790]: mask 0xffffffffffff set
+cpu_bind=MASK - erp02, task 36 12 [125791]: mask 0xffffffffffff set
+cpu_bind=MASK - erp02, task 37 13 [125792]: mask 0xffffffffffff set
+cpu_bind=MASK - erp02, task 38 14 [125793]: mask 0xffffffffffff set
+cpu_bind=MASK - erp02, task 39 15 [125794]: mask 0xffffffffffff set
+cpu_bind=MASK - erp02, task 40 16 [125795]: mask 0xffffffffffff set
+cpu_bind=MASK - erp02, task 41 17 [125796]: mask 0xffffffffffff set
+cpu_bind=MASK - erp02, task 42 18 [125797]: mask 0xffffffffffff set
+cpu_bind=MASK - erp02, task 43 19 [125798]: mask 0xffffffffffff set
+cpu_bind=MASK - erp02, task 44 20 [125799]: mask 0xffffffffffff set
+cpu_bind=MASK - erp02, task 45 21 [125800]: mask 0xffffffffffff set
+cpu_bind=MASK - erp02, task 46 22 [125801]: mask 0xffffffffffff set
+cpu_bind=MASK - erp02, task 47 23 [125802]: mask 0xffffffffffff set
+
+# OSU MPI Allreduce Latency Test v5.6.1
+# Size       Avg Latency(us)
+4                      11.12
+8                      11.12
+16                     10.81
+32                     12.48
+64                     12.02
+128                    14.91
+256                    16.24
+512                    18.09
+1024                   21.95
+2048                   29.79
+4096                   44.75
+8192                   96.87
+16384                 182.99
+32768                 246.88
+65536                 345.74
+131072                603.91
+262144               1020.76
+524288               2074.17
+1048576              4014.24
++ set +x
