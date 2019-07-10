@@ -1,3 +1,9 @@
+# OpenMPI 4.0.1 #
+
+Spack spec:
+
+`openmpi@4.0.1~cuda+cxx_exceptions fabrics=ucx ~java~legacylaunchers~memchecker+pmi schedulers=slurm ~sqlite3~thread_multiple+vt`
+
 ## NUMA Binding ##
 
 Processes are bound to cores in order of increasing distance from the NUMA
