@@ -1,7 +1,7 @@
 ## NUMA Binding ##
 
-Processes are bound to cores in order of increaseing distance from the NUMA
-domain associated with the Infiniband interface.
+Processes are bound to cores in order of increasing distance from the NUMA
+domain associated with the InfiniBand interface.
 
 ![numappn12](https://github.com/SCOREC/erpClusterTesting/blob/master/mpiAllReduce/numaBinding/numa_ppn12procSweep.png?raw=true)
 ![numappn24](https://github.com/SCOREC/erpClusterTesting/blob/master/mpiAllReduce/numaBinding/numa_ppn24procSweep.png?raw=true)
