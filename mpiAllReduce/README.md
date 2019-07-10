@@ -4,6 +4,8 @@ Spack spec:
 
 `openmpi@4.0.1~cuda+cxx_exceptions fabrics=ucx ~java~legacylaunchers~memchecker+pmi schedulers=slurm ~sqlite3~thread_multiple+vt`
 
+`ucx` 1.5.2 is installed via spack.
+
 ## NUMA Binding ##
 
 Processes are bound to cores in order of increasing distance from the NUMA
