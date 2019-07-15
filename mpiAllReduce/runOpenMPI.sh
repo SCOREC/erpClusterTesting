@@ -4,8 +4,8 @@ p=$1
 numabind=$2
 module use /gpfs/u/software/erp-spack-install/lmod/linux-centos7-x86_64/Core/
 module load gcc
-module load openmpi/4.0.1-v3gypy2
-bin=/gpfs/u/home/CCNI/CCNIsmth/barn-shared/CWS/osu-micro-benchmarks-5.6.1-erp-openmpi.4.0.1-install/libexec/osu-micro-benchmarks/mpi/
+export PATH=$PATH:/gpfs/u/barn/CCNI/shared/CWS/openmpi-4.0.1/install-noVerbs-pmi-gcc7.4.0/bin
+bin=/gpfs/u/home/CCNI/CCNIsmth/barn-shared/CWS/osu-micro-benchmarks-5.6.1-erp-openmpi.4.0.1ucxNoVerbsPmi-install/libexec/osu-micro-benchmarks/mpi/
 numamap=""
 #populate socket 1 then socket 0
 for nn in 4 5 6 7 0 1 2 3; do
