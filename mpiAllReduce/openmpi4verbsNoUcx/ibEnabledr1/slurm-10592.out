@@ -1,0 +1,173 @@
+processes 96
+nodes 8
+ppn 12
+binding numa
++ srun --mpi=pmi2 -n 96 --cpu_bind=verbose,map_ldom=4,4,4,4,4,4,5,5,5,5,5,5,6,6,6,6,6,6,7,7,7,7,7,7,0,0,0,0,0,0,1,1,1,1,1,1,2,2,2,2,2,2,3,3,3,3,3,3 /gpfs/u/home/CCNI/CCNIsmth/barn-shared/CWS/osu-micro-benchmarks-5.6.1-erp-openmpi.4.0.1-verbs-noUcx-Pmi-install//libexec/osu-micro-benchmarks/mpi//collective/osu_allreduce
+cpu_bind=LDMAP  - erp01, task  2  2 [1611]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp01, task  0  0 [1609]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp01, task  1  1 [1610]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp01, task  6  6 [1615]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp01, task  5  5 [1614]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp01, task  4  4 [1613]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp01, task  3  3 [1612]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp01, task  8  8 [1617]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp01, task  7  7 [1616]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp01, task 10 10 [1619]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp01, task  9  9 [1618]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp01, task 11 11 [1620]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp03, task 25  1 [117646]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp03, task 27  3 [117648]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp03, task 28  4 [117649]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp03, task 29  5 [117650]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp03, task 24  0 [117645]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp03, task 26  2 [117647]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp03, task 30  6 [117651]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp03, task 31  7 [117652]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp03, task 33  9 [117654]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp03, task 34 10 [117655]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp03, task 32  8 [117653]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp03, task 35 11 [117656]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp08, task 86  2 [121469]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp08, task 84  0 [121467]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp08, task 85  1 [121468]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp08, task 88  4 [121471]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp08, task 87  3 [121470]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp08, task 89  5 [121472]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp08, task 91  7 [121474]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp08, task 90  6 [121473]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp08, task 92  8 [121475]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp08, task 95 11 [121478]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp08, task 94 10 [121477]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp08, task 93  9 [121476]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp02, task 12  0 [64738]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp02, task 13  1 [64739]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp02, task 14  2 [64740]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp02, task 17  5 [64743]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp02, task 16  4 [64742]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp02, task 15  3 [64741]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp02, task 19  7 [64745]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp02, task 18  6 [64744]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp02, task 20  8 [64746]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp02, task 21  9 [64747]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp02, task 22 10 [64748]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp02, task 23 11 [64749]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp05, task 48  0 [40789]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp05, task 49  1 [40790]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp05, task 50  2 [40791]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp05, task 51  3 [40792]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp05, task 52  4 [40793]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp05, task 53  5 [40794]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp05, task 54  6 [40795]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp05, task 55  7 [40796]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp05, task 57  9 [40798]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp05, task 56  8 [40797]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp05, task 58 10 [40799]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp05, task 59 11 [40800]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp06, task 65  5 [112079]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp06, task 63  3 [112077]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp06, task 64  4 [112078]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp06, task 62  2 [112076]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp06, task 61  1 [112075]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp06, task 60  0 [112074]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp06, task 66  6 [112080]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp06, task 67  7 [112081]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp06, task 68  8 [112082]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp06, task 69  9 [112083]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp06, task 70 10 [112084]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp06, task 71 11 [112085]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp04, task 37  1 [113036]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp04, task 36  0 [113035]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp04, task 38  2 [113037]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp04, task 40  4 [113039]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp04, task 41  5 [113040]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp04, task 43  7 [113042]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp04, task 39  3 [113038]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp04, task 42  6 [113041]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp04, task 44  8 [113043]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp04, task 46 10 [113045]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp04, task 47 11 [113046]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp04, task 45  9 [113044]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp07, task 73  1 [48265]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp07, task 72  0 [48264]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp07, task 74  2 [48266]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp07, task 75  3 [48267]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp07, task 77  5 [48269]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp07, task 76  4 [48268]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp07, task 79  7 [48271]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp07, task 78  6 [48270]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp07, task 80  8 [48272]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp07, task 82 10 [48274]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp07, task 81  9 [48273]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp07, task 83 11 [48275]: mask 0x80808080808 set
+
+# OSU MPI Allreduce Latency Test v5.6.1
+# Size       Avg Latency(us)
+[erp04:113035] *** Process received signal ***
+[erp04:113035] Signal: Segmentation fault (11)
+[erp04:113035] Signal code: Address not mapped (1)
+[erp04:113035] Failing at address: 0x115d570
+[erp04:113035] [ 0] /usr/lib64/libpthread.so.0(+0xf630)[0x7f4b42264630]
+[erp04:113035] [ 1] /gpfs/u//software/erp-rhel7/openmpi/4.0.1/2/lib/openmpi/mca_btl_openib.so(+0x24d59)[0x7f4b3ceb5d59]
+[erp04:113035] [ 2] /gpfs/u//software/erp-rhel7/openmpi/4.0.1/2/lib/openmpi/mca_btl_openib.so(+0x255fc)[0x7f4b3ceb65fc]
+[erp04:113035] [ 3] /gpfs/u//software/erp-rhel7/openmpi/4.0.1/2/lib/libopen-pal.so.40(opal_libevent2022_event_base_loop+0x7c1)[0x7f4b41939fc1]
+[erp04:113035] [ 4] /gpfs/u//software/erp-rhel7/openmpi/4.0.1/2/lib/libopen-pal.so.40(+0x3c1ae)[0x7f4b418f41ae]
+[erp04:113035] [ 5] /usr/lib64/libpthread.so.0(+0x7ea5)[0x7f4b4225cea5]
+[erp04:113035] [ 6] /usr/lib64/libc.so.6(clone+0x6d)[0x7f4b41f858dd]
+[erp04:113035] *** End of error message ***
+[erp06][[10592,0],70][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 316, msg_type: 100
+[erp06][[10592,0],70][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+--------------------------------------------------------------------------
+At least one pair of MPI processes are unable to reach each other for
+MPI communications.  This means that no Open MPI device has indicated
+that it can be used to communicate between these processes.  This is
+an error; Open MPI requires that all MPI processes be able to reach
+each other.  This error can sometimes be the result of forgetting to
+specify the "self" BTL.
+
+  Process 1 ([[10592,0],70]) is on host: erp06
+  Process 2 ([[10592,0],6]) is on host: unknown!
+  BTLs attempted: vader tcp self openib
+
+Your MPI job is now going to abort; sorry.
+--------------------------------------------------------------------------
+[erp06:112084] *** An error occurred in MPI_Barrier
+[erp06:112084] *** reported by process [694157312,70]
+[erp06:112084] *** on communicator MPI_COMM_WORLD
+[erp06:112084] *** MPI_ERR_INTERN: internal error
+[erp06:112084] *** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+[erp06:112084] ***    and potentially your MPI job)
+[erp06][[10592,0],71][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 320, msg_type: 100
+[erp06][[10592,0],71][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+--------------------------------------------------------------------------
+At least one pair of MPI processes are unable to reach each other for
+MPI communications.  This means that no Open MPI device has indicated
+that it can be used to communicate between these processes.  This is
+an error; Open MPI requires that all MPI processes be able to reach
+each other.  This error can sometimes be the result of forgetting to
+specify the "self" BTL.
+
+  Process 1 ([[10592,0],71]) is on host: erp06
+  Process 2 ([[10592,0],87]) is on host: unknown!
+  BTLs attempted: vader tcp self openib
+
+Your MPI job is now going to abort; sorry.
+--------------------------------------------------------------------------
+[erp06:112085] *** An error occurred in MPI_Barrier
+[erp06:112085] *** reported by process [694157312,71]
+[erp06:112085] *** on communicator MPI_COMM_WORLD
+[erp06:112085] *** MPI_ERR_INTERN: internal error
+[erp06:112085] *** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+[erp06:112085] ***    and potentially your MPI job)
+slurmstepd: error: *** STEP 10592.0 ON erp01 CANCELLED AT 2020-09-18T13:58:01 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: erp04: task 36: Segmentation fault
+srun: error: erp04: tasks 37-47: Killed
+srun: error: erp06: tasks 60-69: Killed
+srun: error: erp06: tasks 70-71: Exited with exit code 17
+srun: error: erp01: tasks 0-11: Killed
+srun: error: erp02: tasks 12-23: Killed
+srun: error: erp07: tasks 72-83: Killed
+srun: error: erp08: tasks 84-95: Killed
+srun: error: erp05: tasks 48-59: Killed
+srun: error: erp03: tasks 24-35: Killed
++ set +x

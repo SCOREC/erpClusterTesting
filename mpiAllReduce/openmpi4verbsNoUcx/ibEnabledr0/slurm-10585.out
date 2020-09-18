@@ -1,0 +1,340 @@
+processes 288
+nodes 12
+ppn 24
+binding numa
++ srun --mpi=pmi2 -n 288 --cpu_bind=verbose,map_ldom=4,4,4,4,4,4,5,5,5,5,5,5,6,6,6,6,6,6,7,7,7,7,7,7,0,0,0,0,0,0,1,1,1,1,1,1,2,2,2,2,2,2,3,3,3,3,3,3 /gpfs/u/home/CCNI/CCNIsmth/barn-shared/CWS/osu-micro-benchmarks-5.6.1-erp-openmpi.4.0.1-verbs-noUcx-Pmi-install//libexec/osu-micro-benchmarks/mpi//collective/osu_allreduce
+cpu_bind=LDMAP  - erp01, task  1  1 [130705]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp01, task  2  2 [130706]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp01, task  0  0 [130704]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp01, task  4  4 [130708]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp01, task  3  3 [130707]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp01, task  5  5 [130709]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp01, task  7  7 [130711]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp01, task  6  6 [130710]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp01, task  8  8 [130712]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp01, task 10 10 [130714]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp01, task  9  9 [130713]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp01, task 11 11 [130715]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp01, task 12 12 [130716]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp01, task 15 15 [130719]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp01, task 13 13 [130717]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp01, task 14 14 [130718]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp01, task 16 16 [130720]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp01, task 17 17 [130721]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp01, task 18 18 [130722]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp01, task 19 19 [130723]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp01, task 20 20 [130724]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp01, task 21 21 [130725]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp01, task 22 22 [130726]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp01, task 23 23 [130727]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp03, task 49  1 [116757]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp03, task 50  2 [116758]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp03, task 48  0 [116756]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp03, task 51  3 [116759]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp03, task 58 10 [116766]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp03, task 52  4 [116760]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp03, task 56  8 [116764]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp03, task 55  7 [116763]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp03, task 54  6 [116762]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp03, task 60 12 [116768]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp03, task 59 11 [116767]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp03, task 57  9 [116765]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp03, task 61 13 [116769]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp03, task 62 14 [116770]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp03, task 64 16 [116772]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp03, task 63 15 [116771]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp03, task 53  5 [116761]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp03, task 65 17 [116773]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp03, task 66 18 [116774]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp03, task 67 19 [116775]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp03, task 68 20 [116776]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp03, task 69 21 [116777]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp03, task 70 22 [116778]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp03, task 71 23 [116779]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp05, task 96  0 [40154]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp05, task 97  1 [40155]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp05, task 98  2 [40156]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp05, task 101  5 [40159]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp05, task 99  3 [40157]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp05, task 100  4 [40158]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp05, task 102  6 [40160]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp05, task 103  7 [40161]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp05, task 104  8 [40162]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp05, task 105  9 [40163]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp05, task 106 10 [40164]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp05, task 107 11 [40165]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp05, task 108 12 [40166]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp05, task 109 13 [40167]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp05, task 111 15 [40169]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp04, task 75  3 [112138]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp02, task 24  0 [63592]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp05, task 110 14 [40168]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp04, task 76  4 [112139]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp02, task 26  2 [63594]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp04, task 72  0 [112135]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp02, task 25  1 [63593]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp04, task 73  1 [112136]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp02, task 28  4 [63596]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp04, task 77  5 [112140]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp02, task 29  5 [63597]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp05, task 113 17 [40171]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp04, task 74  2 [112137]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp02, task 27  3 [63595]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp05, task 112 16 [40170]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp04, task 78  6 [112141]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp02, task 31  7 [63599]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp05, task 114 18 [40172]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp04, task 79  7 [112142]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp02, task 30  6 [63598]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp05, task 115 19 [40173]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp04, task 80  8 [112143]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp02, task 32  8 [63600]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp05, task 116 20 [40174]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp04, task 81  9 [112144]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp02, task 33  9 [63601]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp05, task 117 21 [40175]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp04, task 82 10 [112145]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp02, task 35 11 [63603]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp05, task 118 22 [40176]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp04, task 83 11 [112146]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp02, task 36 12 [63604]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp05, task 119 23 [40177]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp04, task 85 13 [112148]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp02, task 37 13 [63605]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp04, task 84 12 [112147]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp02, task 34 10 [63602]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp04, task 86 14 [112149]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp02, task 38 14 [63606]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp04, task 87 15 [112150]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp02, task 40 16 [63608]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp04, task 88 16 [112151]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp02, task 39 15 [63607]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp02, task 41 17 [63609]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp02, task 43 19 [63611]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp04, task 89 17 [112152]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp02, task 42 18 [63610]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp04, task 90 18 [112153]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp02, task 44 20 [63612]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp04, task 91 19 [112154]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp02, task 45 21 [63613]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp04, task 92 20 [112155]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp04, task 93 21 [112156]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp04, task 95 23 [112158]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp04, task 94 22 [112157]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp02, task 47 23 [63615]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp02, task 46 22 [63614]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp09, task 192  0 [110371]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp09, task 193  1 [110372]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp09, task 194  2 [110373]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp09, task 195  3 [110374]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp09, task 196  4 [110375]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp09, task 197  5 [110376]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp09, task 198  6 [110377]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp09, task 199  7 [110378]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp09, task 200  8 [110379]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp09, task 201  9 [110380]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp09, task 202 10 [110381]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp09, task 203 11 [110382]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp09, task 204 12 [110383]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp09, task 205 13 [110384]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp09, task 206 14 [110385]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp09, task 207 15 [110386]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp09, task 209 17 [110388]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp09, task 210 18 [110389]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp09, task 208 16 [110387]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp09, task 212 20 [110391]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp09, task 211 19 [110390]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp09, task 213 21 [110392]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp09, task 215 23 [110394]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp09, task 214 22 [110393]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp08, task 176  8 [120795]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp08, task 174  6 [120793]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp08, task 175  7 [120794]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp08, task 177  9 [120796]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp08, task 168  0 [120787]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp08, task 171  3 [120790]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp08, task 178 10 [120797]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp08, task 173  5 [120792]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp08, task 170  2 [120789]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp08, task 179 11 [120798]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp08, task 169  1 [120788]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp08, task 172  4 [120791]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp08, task 180 12 [120799]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp08, task 181 13 [120800]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp08, task 182 14 [120801]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp08, task 183 15 [120802]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp08, task 184 16 [120803]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp08, task 186 18 [120805]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp08, task 185 17 [120804]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp08, task 187 19 [120806]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp08, task 188 20 [120807]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp08, task 190 22 [120809]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp08, task 189 21 [120808]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp08, task 191 23 [120810]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp07, task 144  0 [47602]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp07, task 145  1 [47603]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp07, task 146  2 [47604]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp07, task 149  5 [47607]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp07, task 148  4 [47606]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp07, task 150  6 [47608]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp07, task 147  3 [47605]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp07, task 151  7 [47609]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp07, task 152  8 [47610]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp07, task 153  9 [47611]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp07, task 154 10 [47612]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp07, task 155 11 [47613]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp07, task 156 12 [47614]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp07, task 157 13 [47615]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp07, task 160 16 [47618]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp07, task 159 15 [47617]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp07, task 158 14 [47616]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp07, task 161 17 [47619]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp07, task 162 18 [47620]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp07, task 164 20 [47622]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp07, task 163 19 [47621]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp07, task 166 22 [47624]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp07, task 165 21 [47623]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp07, task 167 23 [47625]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp12, task 266  2 [50865]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp12, task 264  0 [50863]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp12, task 265  1 [50864]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp12, task 267  3 [50866]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp12, task 269  5 [50868]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp12, task 268  4 [50867]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp12, task 271  7 [50870]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp12, task 272  8 [50871]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp12, task 273  9 [50872]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp12, task 270  6 [50869]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp12, task 275 11 [50874]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp12, task 276 12 [50875]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp12, task 274 10 [50873]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp12, task 277 13 [50876]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp12, task 278 14 [50877]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp12, task 279 15 [50878]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp12, task 281 17 [50880]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp12, task 280 16 [50879]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp12, task 282 18 [50881]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp12, task 284 20 [50883]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp12, task 283 19 [50882]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp12, task 285 21 [50884]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp12, task 287 23 [50886]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp12, task 286 22 [50885]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp10, task 216  0 [112821]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp10, task 218  2 [112823]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp10, task 217  1 [112822]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp10, task 219  3 [112824]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp10, task 221  5 [112826]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp10, task 220  4 [112825]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp10, task 222  6 [112827]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp10, task 223  7 [112828]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp10, task 224  8 [112829]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp10, task 225  9 [112830]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp10, task 226 10 [112831]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp10, task 227 11 [112832]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp10, task 229 13 [112834]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp10, task 228 12 [112833]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp10, task 232 16 [112837]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp10, task 231 15 [112836]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp10, task 230 14 [112835]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp10, task 233 17 [112838]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp10, task 235 19 [112840]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp10, task 234 18 [112839]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp10, task 236 20 [112841]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp10, task 237 21 [112842]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp10, task 238 22 [112843]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp10, task 239 23 [112844]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp06, task 123  3 [111408]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp06, task 124  4 [111409]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp06, task 125  5 [111410]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp06, task 121  1 [111406]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp06, task 120  0 [111405]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp06, task 122  2 [111407]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp06, task 126  6 [111411]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp06, task 127  7 [111412]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp06, task 128  8 [111413]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp06, task 129  9 [111414]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp06, task 130 10 [111415]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp06, task 131 11 [111416]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp06, task 132 12 [111417]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp06, task 133 13 [111418]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp06, task 134 14 [111419]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp06, task 135 15 [111420]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp06, task 136 16 [111421]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp06, task 137 17 [111422]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp06, task 138 18 [111423]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp06, task 139 19 [111424]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp06, task 140 20 [111425]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp06, task 141 21 [111426]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp06, task 143 23 [111428]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp06, task 142 22 [111427]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp11, task 242  2 [67242]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp11, task 240  0 [67240]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp11, task 241  1 [67241]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp11, task 243  3 [67243]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp11, task 244  4 [67244]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp11, task 245  5 [67245]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp11, task 247  7 [67247]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp11, task 248  8 [67248]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp11, task 246  6 [67246]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp11, task 249  9 [67249]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp11, task 250 10 [67250]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp11, task 251 11 [67251]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp11, task 252 12 [67252]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp11, task 253 13 [67253]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp11, task 254 14 [67254]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp11, task 255 15 [67255]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp11, task 257 17 [67257]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp11, task 256 16 [67256]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp11, task 258 18 [67258]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp11, task 259 19 [67259]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp11, task 262 22 [67262]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp11, task 261 21 [67261]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp11, task 260 20 [67260]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp11, task 263 23 [67263]: mask 0x808080808080 set
+
+# OSU MPI Allreduce Latency Test v5.6.1
+# Size       Avg Latency(us)
+[erp09][[10585,0],209][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 319, msg_type: 100
+[erp09][[10585,0],209][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+--------------------------------------------------------------------------
+At least one pair of MPI processes are unable to reach each other for
+MPI communications.  This means that no Open MPI device has indicated
+that it can be used to communicate between these processes.  This is
+an error; Open MPI requires that all MPI processes be able to reach
+each other.  This error can sometimes be the result of forgetting to
+specify the "self" BTL.
+
+  Process 1 ([[10585,0],209]) is on host: erp09
+  Process 2 ([[10585,0],241]) is on host: unknown!
+  BTLs attempted: vader tcp self openib
+
+Your MPI job is now going to abort; sorry.
+--------------------------------------------------------------------------
+[erp09:110388] *** An error occurred in MPI_Barrier
+[erp09:110388] *** reported by process [693698560,209]
+[erp09:110388] *** on communicator MPI_COMM_WORLD
+[erp09:110388] *** MPI_ERR_INTERN: internal error
+[erp09:110388] *** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+[erp09:110388] ***    and potentially your MPI job)
+srun: error: erp09: task 209: Exited with exit code 17
+[erp08:120796] too many retries sending message to 0x0143:0x00001e54, giving up
+[erp06:111418] too many retries sending message to 0x0143:0x00001e36, giving up
+[erp08:120807] too many retries sending message to 0x0143:0x00001e4c, giving up
+[erp08:120798] too many retries sending message to 0x0143:0x00001e82, giving up
+slurmstepd: error: *** STEP 10585.0 ON erp01 CANCELLED AT 2020-09-18T13:55:38 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: erp09: tasks 192-208,210-215: Killed
+srun: error: erp08: tasks 168-176,178-187,189-191: Killed
+srun: error: erp08: tasks 177,188: Exited with exit code 255
+srun: error: erp10: tasks 216-239: Killed
+srun: error: erp06: tasks 120-132,134-143: Killed
+srun: error: erp06: task 133: Exited with exit code 255
+srun: error: erp11: tasks 240-263: Killed
+srun: error: erp01: tasks 0-23: Killed
+srun: error: erp12: tasks 264-287: Killed
+srun: error: erp04: tasks 72-95: Killed
+srun: error: erp05: tasks 96-119: Killed
+srun: error: erp07: tasks 144-167: Killed
+srun: error: erp03: tasks 48-71: Killed
+srun: error: erp02: tasks 24-47: Killed
++ set +x

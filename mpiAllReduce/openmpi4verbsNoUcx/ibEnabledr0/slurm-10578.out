@@ -1,0 +1,52 @@
+processes 24
+nodes 2
+ppn 12
+binding numa
++ srun --mpi=pmi2 -n 24 --cpu_bind=verbose,map_ldom=4,4,4,4,4,4,5,5,5,5,5,5,6,6,6,6,6,6,7,7,7,7,7,7,0,0,0,0,0,0,1,1,1,1,1,1,2,2,2,2,2,2,3,3,3,3,3,3 /gpfs/u/home/CCNI/CCNIsmth/barn-shared/CWS/osu-micro-benchmarks-5.6.1-erp-openmpi.4.0.1-verbs-noUcx-Pmi-install//libexec/osu-micro-benchmarks/mpi//collective/osu_allreduce
+cpu_bind=LDMAP  - erp01, task  0  0 [129562]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp01, task  1  1 [129563]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp01, task  2  2 [129564]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp01, task  3  3 [129565]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp01, task  4  4 [129566]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp01, task  8  8 [129570]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp01, task  7  7 [129569]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp01, task  5  5 [129567]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp01, task  6  6 [129568]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp01, task 10 10 [129572]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp01, task  9  9 [129571]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp01, task 11 11 [129573]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp02, task 14  2 [62899]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp02, task 12  0 [62897]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp02, task 13  1 [62898]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp02, task 15  3 [62900]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp02, task 16  4 [62901]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp02, task 17  5 [62902]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp02, task 18  6 [62903]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp02, task 19  7 [62904]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp02, task 21  9 [62906]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp02, task 20  8 [62905]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp02, task 22 10 [62907]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp02, task 23 11 [62908]: mask 0x80808080808 set
+
+# OSU MPI Allreduce Latency Test v5.6.1
+# Size       Avg Latency(us)
+4                       6.55
+8                       6.56
+16                      6.70
+32                      6.77
+64                      7.01
+128                     8.38
+256                     8.87
+512                    12.75
+1024                   13.90
+2048                   17.05
+4096                   37.28
+8192                   52.78
+16384                 112.21
+32768                 142.40
+65536                 173.09
+131072                361.51
+262144                486.23
+524288                863.50
+1048576              1354.35
++ set +x

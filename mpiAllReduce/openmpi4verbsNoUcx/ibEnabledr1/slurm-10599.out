@@ -1,0 +1,371 @@
+processes 192
+nodes 4
+ppn 48
+binding numa
++ srun --mpi=pmi2 -n 192 --cpu_bind=verbose,map_ldom=4,4,4,4,4,4,5,5,5,5,5,5,6,6,6,6,6,6,7,7,7,7,7,7,0,0,0,0,0,0,1,1,1,1,1,1,2,2,2,2,2,2,3,3,3,3,3,3 /gpfs/u/home/CCNI/CCNIsmth/barn-shared/CWS/osu-micro-benchmarks-5.6.1-erp-openmpi.4.0.1-verbs-noUcx-Pmi-install//libexec/osu-micro-benchmarks/mpi//collective/osu_allreduce
+cpu_bind=LDMAP  - erp01, task  2  2 [2943]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp01, task  0  0 [2941]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp01, task  1  1 [2942]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp01, task  3  3 [2944]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp01, task  5  5 [2946]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp01, task  6  6 [2947]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp01, task  4  4 [2945]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp01, task  7  7 [2948]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp01, task  9  9 [2950]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp01, task  8  8 [2949]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp01, task 10 10 [2951]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp01, task 11 11 [2952]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp01, task 12 12 [2953]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp01, task 13 13 [2954]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp01, task 14 14 [2955]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp01, task 19 19 [2960]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp01, task 16 16 [2957]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp01, task 15 15 [2956]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp01, task 17 17 [2958]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp01, task 18 18 [2959]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp01, task 20 20 [2961]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp01, task 21 21 [2962]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp01, task 22 22 [2963]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp01, task 23 23 [2964]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp01, task 25 25 [2966]: mask 0x10101010101 set
+cpu_bind=LDMAP  - erp01, task 24 24 [2965]: mask 0x10101010101 set
+cpu_bind=LDMAP  - erp01, task 28 28 [2969]: mask 0x10101010101 set
+cpu_bind=LDMAP  - erp01, task 27 27 [2968]: mask 0x10101010101 set
+cpu_bind=LDMAP  - erp01, task 26 26 [2967]: mask 0x10101010101 set
+cpu_bind=LDMAP  - erp01, task 29 29 [2970]: mask 0x10101010101 set
+cpu_bind=LDMAP  - erp01, task 30 30 [2971]: mask 0x40404040404 set
+cpu_bind=LDMAP  - erp01, task 31 31 [2972]: mask 0x40404040404 set
+cpu_bind=LDMAP  - erp01, task 32 32 [2973]: mask 0x40404040404 set
+cpu_bind=LDMAP  - erp01, task 33 33 [2974]: mask 0x40404040404 set
+cpu_bind=LDMAP  - erp01, task 34 34 [2975]: mask 0x40404040404 set
+cpu_bind=LDMAP  - erp01, task 35 35 [2976]: mask 0x40404040404 set
+cpu_bind=LDMAP  - erp01, task 37 37 [2978]: mask 0x101010101010 set
+cpu_bind=LDMAP  - erp01, task 36 36 [2977]: mask 0x101010101010 set
+cpu_bind=LDMAP  - erp01, task 38 38 [2979]: mask 0x101010101010 set
+cpu_bind=LDMAP  - erp01, task 39 39 [2980]: mask 0x101010101010 set
+cpu_bind=LDMAP  - erp01, task 40 40 [2981]: mask 0x101010101010 set
+cpu_bind=LDMAP  - erp01, task 41 41 [2982]: mask 0x101010101010 set
+cpu_bind=LDMAP  - erp01, task 42 42 [2983]: mask 0x404040404040 set
+cpu_bind=LDMAP  - erp01, task 43 43 [2984]: mask 0x404040404040 set
+cpu_bind=LDMAP  - erp01, task 46 46 [2987]: mask 0x404040404040 set
+cpu_bind=LDMAP  - erp01, task 44 44 [2985]: mask 0x404040404040 set
+cpu_bind=LDMAP  - erp01, task 45 45 [2986]: mask 0x404040404040 set
+cpu_bind=LDMAP  - erp01, task 47 47 [2988]: mask 0x404040404040 set
+cpu_bind=LDMAP  - erp03, task 96  0 [118257]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp03, task 97  1 [118258]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp03, task 98  2 [118259]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp03, task 99  3 [118260]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp03, task 101  5 [118262]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp03, task 100  4 [118261]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp03, task 102  6 [118263]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp03, task 103  7 [118264]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp03, task 104  8 [118265]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp03, task 105  9 [118266]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp03, task 106 10 [118267]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp03, task 107 11 [118268]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp03, task 108 12 [118269]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp03, task 109 13 [118270]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp03, task 111 15 [118272]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp03, task 110 14 [118271]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp03, task 112 16 [118273]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp03, task 113 17 [118274]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp03, task 114 18 [118275]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp03, task 115 19 [118276]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp03, task 116 20 [118277]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp03, task 117 21 [118278]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp03, task 118 22 [118279]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp03, task 119 23 [118280]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp03, task 121 25 [118282]: mask 0x10101010101 set
+cpu_bind=LDMAP  - erp03, task 120 24 [118281]: mask 0x10101010101 set
+cpu_bind=LDMAP  - erp03, task 122 26 [118283]: mask 0x10101010101 set
+cpu_bind=LDMAP  - erp03, task 123 27 [118284]: mask 0x10101010101 set
+cpu_bind=LDMAP  - erp03, task 124 28 [118285]: mask 0x10101010101 set
+cpu_bind=LDMAP  - erp03, task 125 29 [118286]: mask 0x10101010101 set
+cpu_bind=LDMAP  - erp03, task 127 31 [118288]: mask 0x40404040404 set
+cpu_bind=LDMAP  - erp03, task 128 32 [118289]: mask 0x40404040404 set
+cpu_bind=LDMAP  - erp03, task 126 30 [118287]: mask 0x40404040404 set
+cpu_bind=LDMAP  - erp03, task 129 33 [118290]: mask 0x40404040404 set
+cpu_bind=LDMAP  - erp03, task 130 34 [118291]: mask 0x40404040404 set
+cpu_bind=LDMAP  - erp03, task 131 35 [118292]: mask 0x40404040404 set
+cpu_bind=LDMAP  - erp03, task 132 36 [118293]: mask 0x101010101010 set
+cpu_bind=LDMAP  - erp03, task 133 37 [118294]: mask 0x101010101010 set
+cpu_bind=LDMAP  - erp03, task 135 39 [118296]: mask 0x101010101010 set
+cpu_bind=LDMAP  - erp03, task 134 38 [118295]: mask 0x101010101010 set
+cpu_bind=LDMAP  - erp03, task 136 40 [118297]: mask 0x101010101010 set
+cpu_bind=LDMAP  - erp03, task 137 41 [118298]: mask 0x101010101010 set
+cpu_bind=LDMAP  - erp03, task 138 42 [118299]: mask 0x404040404040 set
+cpu_bind=LDMAP  - erp03, task 141 45 [118302]: mask 0x404040404040 set
+cpu_bind=LDMAP  - erp03, task 140 44 [118301]: mask 0x404040404040 set
+cpu_bind=LDMAP  - erp03, task 139 43 [118300]: mask 0x404040404040 set
+cpu_bind=LDMAP  - erp03, task 143 47 [118304]: mask 0x404040404040 set
+cpu_bind=LDMAP  - erp03, task 142 46 [118303]: mask 0x404040404040 set
+cpu_bind=LDMAP  - erp04, task 145  1 [113648]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp04, task 146  2 [113649]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp04, task 144  0 [113647]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp04, task 149  5 [113652]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp04, task 148  4 [113651]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp04, task 147  3 [113650]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp04, task 150  6 [113653]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp04, task 152  8 [113655]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp04, task 151  7 [113654]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp04, task 153  9 [113656]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp04, task 154 10 [113657]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp04, task 155 11 [113658]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp04, task 156 12 [113659]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp04, task 157 13 [113660]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp04, task 158 14 [113661]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp04, task 159 15 [113662]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp04, task 160 16 [113663]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp04, task 161 17 [113664]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp04, task 162 18 [113665]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp04, task 163 19 [113666]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp04, task 166 22 [113669]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp04, task 165 21 [113668]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp04, task 164 20 [113667]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp04, task 169 25 [113672]: mask 0x10101010101 set
+cpu_bind=LDMAP  - erp04, task 167 23 [113670]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp04, task 168 24 [113671]: mask 0x10101010101 set
+cpu_bind=LDMAP  - erp04, task 171 27 [113674]: mask 0x10101010101 set
+cpu_bind=LDMAP  - erp04, task 170 26 [113673]: mask 0x10101010101 set
+cpu_bind=LDMAP  - erp04, task 172 28 [113675]: mask 0x10101010101 set
+cpu_bind=LDMAP  - erp04, task 174 30 [113677]: mask 0x40404040404 set
+cpu_bind=LDMAP  - erp04, task 173 29 [113676]: mask 0x10101010101 set
+cpu_bind=LDMAP  - erp04, task 175 31 [113678]: mask 0x40404040404 set
+cpu_bind=LDMAP  - erp04, task 178 34 [113681]: mask 0x40404040404 set
+cpu_bind=LDMAP  - erp04, task 177 33 [113680]: mask 0x40404040404 set
+cpu_bind=LDMAP  - erp04, task 176 32 [113679]: mask 0x40404040404 set
+cpu_bind=LDMAP  - erp04, task 179 35 [113682]: mask 0x40404040404 set
+cpu_bind=LDMAP  - erp04, task 181 37 [113684]: mask 0x101010101010 set
+cpu_bind=LDMAP  - erp04, task 180 36 [113683]: mask 0x101010101010 set
+cpu_bind=LDMAP  - erp04, task 184 40 [113687]: mask 0x101010101010 set
+cpu_bind=LDMAP  - erp04, task 182 38 [113685]: mask 0x101010101010 set
+cpu_bind=LDMAP  - erp04, task 185 41 [113688]: mask 0x101010101010 set
+cpu_bind=LDMAP  - erp04, task 183 39 [113686]: mask 0x101010101010 set
+cpu_bind=LDMAP  - erp04, task 186 42 [113689]: mask 0x404040404040 set
+cpu_bind=LDMAP  - erp04, task 188 44 [113691]: mask 0x404040404040 set
+cpu_bind=LDMAP  - erp04, task 187 43 [113690]: mask 0x404040404040 set
+cpu_bind=LDMAP  - erp04, task 189 45 [113692]: mask 0x404040404040 set
+cpu_bind=LDMAP  - erp04, task 190 46 [113693]: mask 0x404040404040 set
+cpu_bind=LDMAP  - erp04, task 191 47 [113694]: mask 0x404040404040 set
+cpu_bind=LDMAP  - erp02, task 49  1 [65684]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp02, task 50  2 [65685]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp02, task 48  0 [65683]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp02, task 52  4 [65687]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp02, task 51  3 [65686]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp02, task 53  5 [65688]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp02, task 54  6 [65689]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp02, task 56  8 [65691]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp02, task 55  7 [65690]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp02, task 58 10 [65693]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp02, task 59 11 [65694]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp02, task 57  9 [65692]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp02, task 60 12 [65695]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp02, task 61 13 [65696]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp02, task 62 14 [65697]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp02, task 64 16 [65699]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp02, task 63 15 [65698]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp02, task 65 17 [65700]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp02, task 66 18 [65701]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp02, task 68 20 [65703]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp02, task 69 21 [65704]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp02, task 67 19 [65702]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp02, task 70 22 [65705]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp02, task 71 23 [65706]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp02, task 72 24 [65707]: mask 0x10101010101 set
+cpu_bind=LDMAP  - erp02, task 74 26 [65709]: mask 0x10101010101 set
+cpu_bind=LDMAP  - erp02, task 73 25 [65708]: mask 0x10101010101 set
+cpu_bind=LDMAP  - erp02, task 75 27 [65710]: mask 0x10101010101 set
+cpu_bind=LDMAP  - erp02, task 76 28 [65711]: mask 0x10101010101 set
+cpu_bind=LDMAP  - erp02, task 77 29 [65712]: mask 0x10101010101 set
+cpu_bind=LDMAP  - erp02, task 79 31 [65714]: mask 0x40404040404 set
+cpu_bind=LDMAP  - erp02, task 78 30 [65713]: mask 0x40404040404 set
+cpu_bind=LDMAP  - erp02, task 80 32 [65715]: mask 0x40404040404 set
+cpu_bind=LDMAP  - erp02, task 81 33 [65716]: mask 0x40404040404 set
+cpu_bind=LDMAP  - erp02, task 82 34 [65717]: mask 0x40404040404 set
+cpu_bind=LDMAP  - erp02, task 83 35 [65718]: mask 0x40404040404 set
+cpu_bind=LDMAP  - erp02, task 88 40 [65723]: mask 0x101010101010 set
+cpu_bind=LDMAP  - erp02, task 87 39 [65722]: mask 0x101010101010 set
+cpu_bind=LDMAP  - erp02, task 90 42 [65725]: mask 0x404040404040 set
+cpu_bind=LDMAP  - erp02, task 89 41 [65724]: mask 0x101010101010 set
+cpu_bind=LDMAP  - erp02, task 85 37 [65720]: mask 0x101010101010 set
+cpu_bind=LDMAP  - erp02, task 86 38 [65721]: mask 0x101010101010 set
+cpu_bind=LDMAP  - erp02, task 93 45 [65728]: mask 0x404040404040 set
+cpu_bind=LDMAP  - erp02, task 84 36 [65719]: mask 0x101010101010 set
+cpu_bind=LDMAP  - erp02, task 92 44 [65727]: mask 0x404040404040 set
+cpu_bind=LDMAP  - erp02, task 91 43 [65726]: mask 0x404040404040 set
+cpu_bind=LDMAP  - erp02, task 94 46 [65729]: mask 0x404040404040 set
+cpu_bind=LDMAP  - erp02, task 95 47 [65730]: mask 0x404040404040 set
+
+# OSU MPI Allreduce Latency Test v5.6.1
+# Size       Avg Latency(us)
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 313, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 313, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 7, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 313, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 313, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 7, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 313, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 313, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 7, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 313, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 313, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 7, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 313, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 313, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 7, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 313, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 313, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 7, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 313, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 313, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 7, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 313, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 313, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 7, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 313, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 313, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 7, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 313, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 313, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 7, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 313, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 313, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 7, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 313, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 313, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 7, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 313, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 313, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 7, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 313, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 313, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 7, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 313, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 313, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 7, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 313, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 313, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 7, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 313, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 313, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 7, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 313, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 313, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 7, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 313, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 313, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 7, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 313, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 313, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 7, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 313, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 313, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 7, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 313, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 313, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 7, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 313, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 313, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 7, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 313, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 313, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 7, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 313, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 313, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 7, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 313, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 313, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 7, msg_type: 100
+[erp03][[10599,0],104][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp02:65707] too many retries sending message to 0x013b:0x00005a2d, giving up
+[erp02:65723] too many retries sending message to 0x013b:0x00005a2d, giving up
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+[erp01:02981] too many retries sending message to 0x013b:0x00005a2d, giving up
+slurmstepd: error: *** STEP 10599.0 ON erp01 CANCELLED AT 2020-09-18T13:59:52 ***
+srun: error: erp02: tasks 54,56,59-60,85: Killed
+srun: error: erp02: tasks 72,88: Exited with exit code 255
+srun: error: erp01: tasks 8-9,11,14,24-26,28,30,32-34: Killed
+srun: error: erp01: task 40: Exited with exit code 255
+srun: error: erp03: tasks 97,100-101,104-142: Killed
+srun: error: erp02: tasks 48-53,55,57-58,61-71,73-84,86-87,89-95: Killed
+srun: error: erp01: tasks 0-7,10,12-13,15-23,27,29,31,35-39,41-47: Killed
+srun: error: erp04: tasks 144-191: Killed
+srun: error: erp03: tasks 96,98-99,102-103,143: Killed
++ set +x

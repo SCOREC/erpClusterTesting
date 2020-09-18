@@ -1,0 +1,76 @@
+processes 48
+nodes 2
+ppn 24
+binding numa
++ srun --mpi=pmi2 -n 48 --cpu_bind=verbose,map_ldom=4,4,4,4,4,4,5,5,5,5,5,5,6,6,6,6,6,6,7,7,7,7,7,7,0,0,0,0,0,0,1,1,1,1,1,1,2,2,2,2,2,2,3,3,3,3,3,3 /gpfs/u/home/CCNI/CCNIsmth/barn-shared/CWS/osu-micro-benchmarks-5.6.1-erp-openmpi.4.0.1-verbs-noUcx-Pmi-install//libexec/osu-micro-benchmarks/mpi//collective/osu_allreduce
+cpu_bind=LDMAP  - erp01, task  2  2 [130182]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp01, task  0  0 [130180]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp01, task  1  1 [130181]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp01, task  4  4 [130184]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp01, task  3  3 [130183]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp01, task  5  5 [130185]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp01, task  7  7 [130187]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp01, task  6  6 [130186]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp01, task  8  8 [130188]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp01, task  9  9 [130189]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp01, task 10 10 [130190]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp01, task 11 11 [130191]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp01, task 12 12 [130192]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp01, task 13 13 [130193]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp01, task 16 16 [130196]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp01, task 15 15 [130195]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp01, task 14 14 [130194]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp01, task 17 17 [130197]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp01, task 18 18 [130198]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp01, task 19 19 [130199]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp01, task 21 21 [130201]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp01, task 20 20 [130200]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp01, task 22 22 [130202]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp01, task 23 23 [130203]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp02, task 26  2 [63259]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp02, task 24  0 [63257]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp02, task 25  1 [63258]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp02, task 27  3 [63260]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp02, task 28  4 [63261]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp02, task 29  5 [63262]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp02, task 31  7 [63264]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp02, task 32  8 [63265]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp02, task 30  6 [63263]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp02, task 33  9 [63266]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp02, task 34 10 [63267]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp02, task 35 11 [63268]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp02, task 36 12 [63269]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp02, task 37 13 [63270]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp02, task 38 14 [63271]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp02, task 40 16 [63273]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp02, task 39 15 [63272]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp02, task 41 17 [63274]: mask 0x202020202020 set
+cpu_bind=LDMAP  - erp02, task 43 19 [63276]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp02, task 44 20 [63277]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp02, task 42 18 [63275]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp02, task 45 21 [63278]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp02, task 47 23 [63280]: mask 0x808080808080 set
+cpu_bind=LDMAP  - erp02, task 46 22 [63279]: mask 0x808080808080 set
+
+# OSU MPI Allreduce Latency Test v5.6.1
+# Size       Avg Latency(us)
+4                       8.61
+8                       8.67
+16                      9.34
+32                      9.85
+64                      9.88
+128                    11.07
+256                    11.63
+512                    17.22
+1024                   19.75
+2048                   24.81
+4096                   51.05
+8192                   74.91
+16384                 228.20
+32768                 241.20
+65536                 293.20
+131072                359.17
+262144                815.80
+524288               1223.59
+1048576              2222.40
++ set +x

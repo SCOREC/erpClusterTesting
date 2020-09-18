@@ -1,0 +1,52 @@
+processes 24
+nodes 2
+ppn 12
+binding numa
++ srun --mpi=pmi2 -n 24 --cpu_bind=verbose,map_ldom=4,4,4,4,4,4,5,5,5,5,5,5,6,6,6,6,6,6,7,7,7,7,7,7,0,0,0,0,0,0,1,1,1,1,1,1,2,2,2,2,2,2,3,3,3,3,3,3 /gpfs/u/home/CCNI/CCNIsmth/barn-shared/CWS/osu-micro-benchmarks-5.6.1-erp-openmpi.4.0.1-verbs-noUcx-Pmi-install//libexec/osu-micro-benchmarks/mpi//collective/osu_allreduce
+cpu_bind=LDMAP  - erp01, task  2  2 [1345]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp01, task  1  1 [1344]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp01, task  0  0 [1343]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp01, task  4  4 [1347]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp01, task  3  3 [1346]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp01, task  5  5 [1348]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp01, task  6  6 [1349]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp01, task  8  8 [1351]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp01, task  7  7 [1350]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp01, task  9  9 [1352]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp01, task 10 10 [1353]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp01, task 11 11 [1354]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp02, task 12  0 [64524]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp02, task 13  1 [64525]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp02, task 14  2 [64526]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp02, task 16  4 [64528]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp02, task 15  3 [64527]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp02, task 17  5 [64529]: mask 0x20202020202 set
+cpu_bind=LDMAP  - erp02, task 18  6 [64530]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp02, task 19  7 [64531]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp02, task 20  8 [64532]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp02, task 21  9 [64533]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp02, task 22 10 [64534]: mask 0x80808080808 set
+cpu_bind=LDMAP  - erp02, task 23 11 [64535]: mask 0x80808080808 set
+
+# OSU MPI Allreduce Latency Test v5.6.1
+# Size       Avg Latency(us)
+4                       6.70
+8                       6.76
+16                      6.84
+32                      6.93
+64                      7.21
+128                     8.63
+256                     9.11
+512                    13.25
+1024                   14.45
+2048                   17.93
+4096                   41.00
+8192                   59.74
+16384                 111.70
+32768                 139.43
+65536                 169.88
+131072                377.36
+262144                503.90
+524288                861.62
+1048576              1357.26
++ set +x
