@@ -54,6 +54,6 @@ The osu benchmarks 5.6.1 were built with the same environment, the openmpi insta
 ./configure CC=mpicc CXX=mpicxx --prefix=/gpfs/u/home/CCNI/CCNIsmth/barn-shared/CWS/osu-micro-benchmarks-5.6.1-erp-openmpi.4.0.1-verbs-noUcx-Pmi-install
 ```
 
-![ppn12](https://github.com/SCOREC/erpClusterTesting/blob/master/mpiAllReduce/openmpi4verbsNoUcxMpirun/numa_ppn12procSweep.png?raw=true)
-![ppn24](https://github.com/SCOREC/erpClusterTesting/blob/master/mpiAllReduce/openmpi4verbsNoUcxMpirun/numa_ppn24procSweep.png?raw=true)
-![ppn48](https://github.com/SCOREC/erpClusterTesting/blob/master/mpiAllReduce/openmpi4verbsNoUcxMpirun/numa_ppn48procSweep.png?raw=true)
+![ppn12](https://github.com/SCOREC/erpClusterTesting/blob/master/mpiAllReduce/openmpi4verbsNoUcxMpirun/core_ppn12procSweep.png?raw=true)
+![ppn24](https://github.com/SCOREC/erpClusterTesting/blob/master/mpiAllReduce/openmpi4verbsNoUcxMpirun/core_ppn24procSweep.png?raw=true)
+![ppn48](https://github.com/SCOREC/erpClusterTesting/blob/master/mpiAllReduce/openmpi4verbsNoUcxMpirun/core_ppn48procSweep.png?raw=true)
