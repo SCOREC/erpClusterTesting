@@ -1,0 +1,200 @@
+processes 96
+nodes 4
+ppn 24
+binding default
++ srun --mpi=pmi2 -n 96 --cpu_bind=verbose /gpfs/u/home/CCNI/CCNIsmth/barn-shared/CWS/osu-micro-benchmarks-5.6.1-erp-openmpi.4.0.1-verbs-noUcx-Pmi-install//libexec/osu-micro-benchmarks/mpi//collective/osu_allreduce
+cpu_bind=MASK - erp01, task  0  0 [5165]: mask 0xffffffffffff set
+cpu_bind=MASK - erp01, task  1  1 [5166]: mask 0xffffffffffff set
+cpu_bind=MASK - erp01, task  2  2 [5167]: mask 0xffffffffffff set
+cpu_bind=MASK - erp01, task  3  3 [5168]: mask 0xffffffffffff set
+cpu_bind=MASK - erp01, task  4  4 [5169]: mask 0xffffffffffff set
+cpu_bind=MASK - erp01, task  5  5 [5170]: mask 0xffffffffffff set
+cpu_bind=MASK - erp01, task  6  6 [5171]: mask 0xffffffffffff set
+cpu_bind=MASK - erp01, task  7  7 [5172]: mask 0xffffffffffff set
+cpu_bind=MASK - erp01, task  8  8 [5173]: mask 0xffffffffffff set
+cpu_bind=MASK - erp01, task  9  9 [5174]: mask 0xffffffffffff set
+cpu_bind=MASK - erp01, task 10 10 [5175]: mask 0xffffffffffff set
+cpu_bind=MASK - erp01, task 11 11 [5176]: mask 0xffffffffffff set
+cpu_bind=MASK - erp01, task 12 12 [5177]: mask 0xffffffffffff set
+cpu_bind=MASK - erp01, task 13 13 [5178]: mask 0xffffffffffff set
+cpu_bind=MASK - erp01, task 14 14 [5179]: mask 0xffffffffffff set
+cpu_bind=MASK - erp01, task 15 15 [5180]: mask 0xffffffffffff set
+cpu_bind=MASK - erp01, task 16 16 [5181]: mask 0xffffffffffff set
+cpu_bind=MASK - erp01, task 17 17 [5182]: mask 0xffffffffffff set
+cpu_bind=MASK - erp01, task 18 18 [5183]: mask 0xffffffffffff set
+cpu_bind=MASK - erp01, task 19 19 [5184]: mask 0xffffffffffff set
+cpu_bind=MASK - erp01, task 20 20 [5185]: mask 0xffffffffffff set
+cpu_bind=MASK - erp01, task 21 21 [5186]: mask 0xffffffffffff set
+cpu_bind=MASK - erp01, task 22 22 [5187]: mask 0xffffffffffff set
+cpu_bind=MASK - erp01, task 23 23 [5188]: mask 0xffffffffffff set
+cpu_bind=MASK - erp04, task 73  1 [126285]: mask 0xffffffffffff set
+cpu_bind=MASK - erp04, task 74  2 [126286]: mask 0xffffffffffff set
+cpu_bind=MASK - erp04, task 75  3 [126287]: mask 0xffffffffffff set
+cpu_bind=MASK - erp04, task 72  0 [126284]: mask 0xffffffffffff set
+cpu_bind=MASK - erp04, task 77  5 [126289]: mask 0xffffffffffff set
+cpu_bind=MASK - erp04, task 78  6 [126290]: mask 0xffffffffffff set
+cpu_bind=MASK - erp04, task 79  7 [126291]: mask 0xffffffffffff set
+cpu_bind=MASK - erp04, task 76  4 [126288]: mask 0xffffffffffff set
+cpu_bind=MASK - erp04, task 80  8 [126292]: mask 0xffffffffffff set
+cpu_bind=MASK - erp04, task 81  9 [126293]: mask 0xffffffffffff set
+cpu_bind=MASK - erp04, task 82 10 [126294]: mask 0xffffffffffff set
+cpu_bind=MASK - erp04, task 83 11 [126295]: mask 0xffffffffffff set
+cpu_bind=MASK - erp04, task 84 12 [126296]: mask 0xffffffffffff set
+cpu_bind=MASK - erp04, task 85 13 [126297]: mask 0xffffffffffff set
+cpu_bind=MASK - erp04, task 86 14 [126298]: mask 0xffffffffffff set
+cpu_bind=MASK - erp04, task 87 15 [126299]: mask 0xffffffffffff set
+cpu_bind=MASK - erp04, task 88 16 [126300]: mask 0xffffffffffff set
+cpu_bind=MASK - erp04, task 89 17 [126301]: mask 0xffffffffffff set
+cpu_bind=MASK - erp04, task 90 18 [126302]: mask 0xffffffffffff set
+cpu_bind=MASK - erp04, task 91 19 [126303]: mask 0xffffffffffff set
+cpu_bind=MASK - erp04, task 92 20 [126304]: mask 0xffffffffffff set
+cpu_bind=MASK - erp04, task 93 21 [126305]: mask 0xffffffffffff set
+cpu_bind=MASK - erp04, task 94 22 [126306]: mask 0xffffffffffff set
+cpu_bind=MASK - erp04, task 95 23 [126307]: mask 0xffffffffffff set
+cpu_bind=MASK - erp03, task 48  0 [126821]: mask 0xffffffffffff set
+cpu_bind=MASK - erp03, task 49  1 [126822]: mask 0xffffffffffff set
+cpu_bind=MASK - erp03, task 50  2 [126823]: mask 0xffffffffffff set
+cpu_bind=MASK - erp03, task 51  3 [126824]: mask 0xffffffffffff set
+cpu_bind=MASK - erp03, task 52  4 [126825]: mask 0xffffffffffff set
+cpu_bind=MASK - erp03, task 53  5 [126826]: mask 0xffffffffffff set
+cpu_bind=MASK - erp03, task 54  6 [126827]: mask 0xffffffffffff set
+cpu_bind=MASK - erp03, task 55  7 [126828]: mask 0xffffffffffff set
+cpu_bind=MASK - erp03, task 56  8 [126829]: mask 0xffffffffffff set
+cpu_bind=MASK - erp03, task 57  9 [126830]: mask 0xffffffffffff set
+cpu_bind=MASK - erp03, task 58 10 [126831]: mask 0xffffffffffff set
+cpu_bind=MASK - erp03, task 59 11 [126832]: mask 0xffffffffffff set
+cpu_bind=MASK - erp03, task 60 12 [126833]: mask 0xffffffffffff set
+cpu_bind=MASK - erp03, task 61 13 [126834]: mask 0xffffffffffff set
+cpu_bind=MASK - erp03, task 62 14 [126835]: mask 0xffffffffffff set
+cpu_bind=MASK - erp03, task 63 15 [126836]: mask 0xffffffffffff set
+cpu_bind=MASK - erp03, task 64 16 [126837]: mask 0xffffffffffff set
+cpu_bind=MASK - erp03, task 65 17 [126838]: mask 0xffffffffffff set
+cpu_bind=MASK - erp03, task 66 18 [126839]: mask 0xffffffffffff set
+cpu_bind=MASK - erp03, task 67 19 [126840]: mask 0xffffffffffff set
+cpu_bind=MASK - erp03, task 68 20 [126841]: mask 0xffffffffffff set
+cpu_bind=MASK - erp03, task 69 21 [126842]: mask 0xffffffffffff set
+cpu_bind=MASK - erp03, task 70 22 [126843]: mask 0xffffffffffff set
+cpu_bind=MASK - erp03, task 71 23 [126844]: mask 0xffffffffffff set
+cpu_bind=MASK - erp02, task 24  0 [130943]: mask 0xffffffffffff set
+cpu_bind=MASK - erp02, task 25  1 [130944]: mask 0xffffffffffff set
+cpu_bind=MASK - erp02, task 26  2 [130945]: mask 0xffffffffffff set
+cpu_bind=MASK - erp02, task 27  3 [130946]: mask 0xffffffffffff set
+cpu_bind=MASK - erp02, task 28  4 [130947]: mask 0xffffffffffff set
+cpu_bind=MASK - erp02, task 29  5 [130948]: mask 0xffffffffffff set
+cpu_bind=MASK - erp02, task 30  6 [130949]: mask 0xffffffffffff set
+cpu_bind=MASK - erp02, task 31  7 [130950]: mask 0xffffffffffff set
+cpu_bind=MASK - erp02, task 32  8 [130951]: mask 0xffffffffffff set
+cpu_bind=MASK - erp02, task 34 10 [130953]: mask 0xffffffffffff set
+cpu_bind=MASK - erp02, task 33  9 [130952]: mask 0xffffffffffff set
+cpu_bind=MASK - erp02, task 37 13 [130956]: mask 0xffffffffffff set
+cpu_bind=MASK - erp02, task 35 11 [130954]: mask 0xffffffffffff set
+cpu_bind=MASK - erp02, task 36 12 [130955]: mask 0xffffffffffff set
+cpu_bind=MASK - erp02, task 38 14 [130957]: mask 0xffffffffffff set
+cpu_bind=MASK - erp02, task 39 15 [130958]: mask 0xffffffffffff set
+cpu_bind=MASK - erp02, task 40 16 [130959]: mask 0xffffffffffff set
+cpu_bind=MASK - erp02, task 41 17 [130960]: mask 0xffffffffffff set
+cpu_bind=MASK - erp02, task 42 18 [130961]: mask 0xffffffffffff set
+cpu_bind=MASK - erp02, task 43 19 [130962]: mask 0xffffffffffff set
+cpu_bind=MASK - erp02, task 44 20 [130963]: mask 0xffffffffffff set
+cpu_bind=MASK - erp02, task 45 21 [130964]: mask 0xffffffffffff set
+cpu_bind=MASK - erp02, task 46 22 [130965]: mask 0xffffffffffff set
+cpu_bind=MASK - erp02, task 47 23 [130966]: mask 0xffffffffffff set
+
+# OSU MPI Allreduce Latency Test v5.6.1
+# Size       Avg Latency(us)
+[erp01][[10999,0],7][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 315, msg_type: 100
+[erp01][[10999,0],7][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp01][[10999,0],9][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 315, msg_type: 100
+[erp01][[10999,0],9][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp01][[10999,0],13][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 315, msg_type: 100
+[erp01][[10999,0],13][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+[erp01][[10999,0],5][connect/btl_openib_connect_udcm.c:1535:udcm_find_endpoint] could not find endpoint with port: 1, lid: 315, msg_type: 100
+[erp01][[10999,0],5][connect/btl_openib_connect_udcm.c:2044:udcm_process_messages] could not find associated endpoint.
+--------------------------------------------------------------------------
+At least one pair of MPI processes are unable to reach each other for
+MPI communications.  This means that no Open MPI device has indicated
+that it can be used to communicate between these processes.  This is
+an error; Open MPI requires that all MPI processes be able to reach
+each other.  This error can sometimes be the result of forgetting to
+specify the "self" BTL.
+
+  Process 1 ([[10999,0],9]) is on host: erp01
+  Process 2 ([[10999,0],68]) is on host: unknown!
+  BTLs attempted: vader tcp self openib
+
+Your MPI job is now going to abort; sorry.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+At least one pair of MPI processes are unable to reach each other for
+MPI communications.  This means that no Open MPI device has indicated
+that it can be used to communicate between these processes.  This is
+an error; Open MPI requires that all MPI processes be able to reach
+each other.  This error can sometimes be the result of forgetting to
+specify the "self" BTL.
+
+  Process 1 ([[10999,0],5]) is on host: erp01
+  Process 2 ([[10999,0],66]) is on host: unknown!
+  BTLs attempted: vader tcp self openib
+
+Your MPI job is now going to abort; sorry.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+At least one pair of MPI processes are unable to reach each other for
+MPI communications.  This means that no Open MPI device has indicated
+that it can be used to communicate between these processes.  This is
+an error; Open MPI requires that all MPI processes be able to reach
+each other.  This error can sometimes be the result of forgetting to
+specify the "self" BTL.
+
+  Process 1 ([[10999,0],7]) is on host: erp01
+  Process 2 ([[10999,0],67]) is on host: unknown!
+  BTLs attempted: vader tcp self openib
+
+Your MPI job is now going to abort; sorry.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+At least one pair of MPI processes are unable to reach each other for
+MPI communications.  This means that no Open MPI device has indicated
+that it can be used to communicate between these processes.  This is
+an error; Open MPI requires that all MPI processes be able to reach
+each other.  This error can sometimes be the result of forgetting to
+specify the "self" BTL.
+
+  Process 1 ([[10999,0],13]) is on host: erp01
+  Process 2 ([[10999,0],70]) is on host: unknown!
+  BTLs attempted: vader tcp self openib
+
+Your MPI job is now going to abort; sorry.
+--------------------------------------------------------------------------
+[erp01:05172] *** An error occurred in MPI_Allreduce
+[erp01:05172] *** reported by process [720830464,7]
+[erp01:05172] *** on communicator MPI_COMM_WORLD
+[erp01:05172] *** MPI_ERR_INTERN: internal error
+[erp01:05172] *** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+[erp01:05172] ***    and potentially your MPI job)
+[erp01:05170] *** An error occurred in MPI_Allreduce
+[erp01:05170] *** reported by process [720830464,5]
+[erp01:05170] *** on communicator MPI_COMM_WORLD
+[erp01:05170] *** MPI_ERR_INTERN: internal error
+[erp01:05170] *** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+[erp01:05170] ***    and potentially your MPI job)
+[erp01:05174] *** An error occurred in MPI_Allreduce
+[erp01:05174] *** reported by process [720830464,9]
+[erp01:05174] *** on communicator MPI_COMM_WORLD
+[erp01:05174] *** MPI_ERR_INTERN: internal error
+[erp01:05174] *** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+[erp01:05174] ***    and potentially your MPI job)
+[erp01:05178] *** An error occurred in MPI_Allreduce
+[erp01:05178] *** reported by process [720830464,13]
+[erp01:05178] *** on communicator MPI_COMM_WORLD
+[erp01:05178] *** MPI_ERR_INTERN: internal error
+[erp01:05178] *** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+[erp01:05178] ***    and potentially your MPI job)
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 10999.0 ON erp01 CANCELLED AT 2020-10-02T10:41:17 ***
+srun: error: erp01: tasks 0-4,6,8,10-12,14-23: Killed
+srun: error: erp01: tasks 5,7,9,13: Exited with exit code 17
+srun: error: erp02: tasks 24-47: Killed
+srun: error: erp03: tasks 48-71: Killed
+srun: error: erp04: tasks 72-95: Killed
++ set +x
