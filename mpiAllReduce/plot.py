@@ -36,11 +36,13 @@ for log in slurmLogs:
             latency.append(t)
     ppn2procs2latency[ppn][procs] = latency
 
-print(ppn2procs2latency[12])
-print(ppn2procs2latency[24])
-print(ppn2procs2latency[48])
-
 for ppn in [12, 24, 48]:
+    zeros = [0]*len(messageSz)
+    for procs,vals in ppn2procs2latency[ppn].items():
+        if len(vals) != len(messageSz):
+            print("Warning: ppn " + str(ppn) + " procs " + str(procs) + \
+                    " is missing vals, setting the results to zero")
+            ppn2procs2latency[ppn][procs] = zeros
     df = pd.DataFrame.from_dict(ppn2procs2latency[ppn])
     df['msgSz'] = messageSz
     title='ERP allreduce average latency core binding ppn ' + str(ppn) \
